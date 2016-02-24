@@ -1,6 +1,6 @@
 header{
 
-    background-color: darkgrey;
+    background-color: dimgrey;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
 }
@@ -42,6 +42,14 @@ ul{
 li{
 
     float: right;
+}
+
+li a{
+
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+
 }
 
 A:LINK{
