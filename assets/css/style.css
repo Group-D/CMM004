@@ -9,7 +9,9 @@ form{
     font-size: 12PT;
 }
 
-main{
+fieldset{
 
+    border: 1px solid #ddd;
+    padding: 5px;
 
-}
+    }
