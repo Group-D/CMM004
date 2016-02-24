@@ -1,6 +1,8 @@
 header{
 
-    background-color: cornsilk;
+    background-color: darkgrey;
+    font-family: 'Playfair Display', serif;
+    font-size: 12PT;
 }
 
 
@@ -50,4 +52,10 @@ A:LINK{
 A:HOVER{
 
     COLOR: red;
+}
+
+Main{
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
