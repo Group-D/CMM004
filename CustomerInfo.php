@@ -41,7 +41,7 @@
                 <<<NEWHTML
                     <div class="resultblock">
     <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
-    <p><strong>{$row[city]}</strong>&nbsp<a href="CustomerInfo.php"><input type="submit" value="BOOK" /></a></p>
+    <p><strong>{$row[city]}</strong></p><p><input type="submit" value="BOOK" /></p>
 </div>
 NEWHTML;
             print($newhtml);
