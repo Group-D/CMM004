@@ -9,6 +9,7 @@ header{
 form{
 
     color: #ffffff;
+    border-radius: 25px;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
 }
@@ -64,7 +65,7 @@ A:HOVER{
 
 #mainimage{
 
-    width: 100%;
+    width: 1000px;
     height: 250px;
 
 }
