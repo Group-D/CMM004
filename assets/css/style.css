@@ -66,6 +66,6 @@ h1{
 
     font-family: 'Playfair Display', serif;
     font-size: 20Pt;
-    margin-left: 0;
+    position: static;
 
 }
