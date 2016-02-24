@@ -1,4 +1,7 @@
+header{
 
+    background-color: cornsilk;
+}
 
 
 form{
@@ -12,6 +15,8 @@ table{
 
     background-color: darkslategrey;
     padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -35,4 +40,14 @@ ul{
 li{
 
     float: right;
+}
+
+A:LINK{
+
+    COLOR: gold;
+}
+
+A:HOVER{
+
+    COLOR: red;
 }
