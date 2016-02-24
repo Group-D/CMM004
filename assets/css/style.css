@@ -3,18 +3,24 @@
 
 form{
 
-
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
 }
 
-fieldset{
-
-
-    }
-
 table{
 
     background-color: darkslategrey;
+    padding: 30px;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+
+}
+
+footer{
+
+    text-align: center;
+    font-family: 'Playfair Display', serif;
 }
