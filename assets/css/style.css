@@ -41,8 +41,7 @@ ul{
 
 li{
 
-    margin-left: auto;
-    margin-right: auto;
+    align-content: center;
 }
 
 li a{
