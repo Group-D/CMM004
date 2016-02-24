@@ -113,7 +113,7 @@ NEWHTML;
 
 
                 <td><a href="CustomerInfo.php">
-                    <input type="button" value="Submit" />
+                    <input type="submit" value="Submit" />
                 </a></td>
             </tr>
         </table></form>
