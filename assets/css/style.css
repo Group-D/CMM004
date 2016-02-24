@@ -62,8 +62,9 @@ A:HOVER{
     COLOR: red;
 }
 
-Main{
+DIV{
 
     font-family: 'Playfair Display', serif;
     text-align: center;
+
 }
