@@ -41,7 +41,7 @@ ul{
 
 li{
 
-    align-content: center;
+    float: left;
 }
 
 li a{
