@@ -13,7 +13,7 @@
 
         <ul>
             <li><a href="Home.html">Home page</a></li>
-            <li><a href="Bookings.html">Bookings</a></li>
+            <li><a href="Bookings.php">Bookings</a></li>
             <li><a href="OwnerRegistration.html">Owner Registration</a></li>
             <li><a href="B&Bregistration.html">B&B Registration</a></li>
         </ul>
@@ -25,11 +25,40 @@
 
 <main>
 
-    <form>
+    <form action="CustomerInfo.php" method="post">
 
         <table>
             <tr>
                 <td><legend>Please complete the form:</legend></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="location">Pick a location:</label></td>
+                <td><select name="location">
+
+                        <?php
+                        $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
+                        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+                        try{
+                            $st = $conn-> query("SELECT * FROM [B&B]");
+                            foreach($st->fetchAll() as $row) {
+                                $newhtml =
+                                    <<<NEWHTML
+                                                                <option value="{$row[city]}">{$row[city]}</option>
+NEWHTML;
+                                print($newhtml);
+                            }
+                        }
+                        catch(PDOException $e)
+                        {print"$e";}
+                        ?>
+
+
+
+
+                    </select>
+                </td>
             </tr>
 
             <tr>
@@ -83,7 +112,7 @@
 
 
 
-                <td><a href="CustomerInfo.html">
+                <td><a href="CustomerInfo.php">
                     <input type="button" value="Submit" />
                 </a></td>
             </tr>

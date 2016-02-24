@@ -13,7 +13,7 @@
 
         <ul>
             <li><a href="Home.html">Home page</a></li>
-            <li><a href="Bookings.html">Bookings</a></li>
+            <li><a href="Bookings.php">Bookings</a></li>
             <li><a href="OwnerRegistration.html">Owner Registration</a></li>
             <li><a href="B&Bregistration.html">B&B Registration</a></li>
         </ul>
@@ -24,8 +24,26 @@
 <body>
 <main>
 
-
-
+    <?php
+    $city = $_POST['location'];
+    $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
+    $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+    try{
+        $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbname] = '$bbName'");
+        foreach($st->fetchAll() as $row) {
+            $newhtml =
+                <<<NEWHTML
+                    <div class="resultblock">
+    <p>According to our database, your search of: <strong>{$row[city]}</strong> has the address: </p>
+    <p ><strong>{$row[city]}</strong></p>
+</div>
+NEWHTML;
+            print($newhtml);
+        }
+    }
+    catch(PDOException $e)
+    {print"$e";}
+    ?>
 
     <form>
 
