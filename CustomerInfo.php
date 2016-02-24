@@ -24,6 +24,12 @@
 <body>
 <main>
 
+
+    <div class="main">
+        <h3 class="pagetitle" >Here are your search results...</h3>
+
+
+
     <?php
     $city = $_POST['location'];
     $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
@@ -44,7 +50,7 @@ NEWHTML;
     catch(PDOException $e)
     {print"$e";}
     ?>
-
+</div>
     <form>
 
         <table>
