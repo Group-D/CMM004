@@ -66,6 +66,11 @@ h1{
 
     font-family: 'Playfair Display', serif;
     font-size: 20Pt;
-    position: static;
 
+
+}
+
+h2{
+
+    color: white;
 }
