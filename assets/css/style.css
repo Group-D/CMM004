@@ -3,11 +3,13 @@
 
 form{
 
+    background-color: darkslategrey;
+    color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
 }
 
 main{
 
-    background-color: darkslategrey;
+
 }
