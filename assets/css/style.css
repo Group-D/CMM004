@@ -3,7 +3,7 @@
 
 form{
 
-    background-color: darkslategrey;
+
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
@@ -11,7 +11,10 @@ form{
 
 fieldset{
 
-    padding: 15px;
-    width: 30%;
 
     }
+
+table{
+
+    background-color: darkslategrey;
+}
