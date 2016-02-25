@@ -116,8 +116,8 @@ NEWHTML;
 <p>According to our database, your search of: <strong>{$city}</strong> has returned the following results: </p>
 
 NEWHTML;
-
-        print($newhtml2+$newhtml);
+        print($newhtml2);
+        print($newhtml);
     }
     catch(PDOException $e)
     {print"$e";}
