@@ -91,10 +91,10 @@
 
 
         foreach($st->fetchAll() as $row) {
-            $newhtml +=
+            $newhtml =
                 <<<NEWHTML
                     <div class="resultblock">
-
+    <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
     <p><strong>{$row[city]}</strong></p>
     <p><strong>{$row[bbname]}</strong></p>
     <p><strong>{$row[address]}</strong></p>
@@ -109,15 +109,8 @@
 
 </div>
 NEWHTML;
-
+            print($newhtml);
         }
-        $newhtml2 +=
-            <<<NEWHTML
-<p>According to our database, your search of: <strong>{$city}</strong> has returned the following results: </p>
-
-NEWHTML;
-        print($newhtml2);
-        print($newhtml);
     }
     catch(PDOException $e)
     {print"$e";}
