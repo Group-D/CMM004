@@ -91,7 +91,7 @@
 
 
         foreach($st->fetchAll() as $row) {
-            $newhtml =
+            $newhtml +=
                 <<<NEWHTML
                     <div class="resultblock">
     <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
@@ -109,8 +109,8 @@
 
 </div>
 NEWHTML;
-            print($newhtml);
-        }
+
+        }print($newhtml);
     }
     catch(PDOException $e)
     {print"$e";}
