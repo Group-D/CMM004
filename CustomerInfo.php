@@ -23,17 +23,11 @@
 </header>
 <body>
 <main>
-
-
-
-
-
-
     <form>
 
         <table>
 
-            <tr><td> <p>Please complete the form:</p></td></tr>
+            <tr><td> <p>Please complete the form before booking:</p></td></tr>
 
             <tr><td>
                     <label for="title">Title:</label></td>
@@ -84,31 +78,9 @@
             </tr>
         </table></form>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <h4>take this out later...</h4>
     <div class="main">
         <h3 class="pagetitle" >Here are your search results...</h3>
-
-
 
     <?php
     $city = $_POST['location'];
@@ -131,9 +103,6 @@ NEWHTML;
     {print"$e";}
     ?>
 </div>
-
-
-
 
 </main>
 <footer>
