@@ -90,7 +90,7 @@
         $st = $conn-> query("SELECT * FROM [B&B] WHERE [city] = '$city'");
         $newhtml +=
         <<<NEWHTML
-        <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
+        <p>According to our database, your search of: <strong>{$city}</strong> has returned the following results: </p>
 
         foreach($st->fetchAll() as $row) {
 
