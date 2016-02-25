@@ -88,17 +88,16 @@
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
     try{
         $st = $conn-> query("SELECT * FROM [B&B] WHERE [city] = '$city'");
+        $newhtml +=
+        <<<NEWHTML
+        <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
+
         foreach($st->fetchAll() as $row) {
-            $newhtml =
-                <<<NEWHTML
+
+
                     <div class="resultblock">
-    <p>According to our database, your search of: <strong>{$row[city]}</strong> has returned the following results: </p>
+
     <p><strong>{$row[city]}</strong></p>
-
-
-
-
-
 
 
     <p><input type="submit" value="BOOK" /></p>
@@ -106,9 +105,10 @@
 
 
 </div>
+}
 NEWHTML;
-            print($newhtml);
-        }
+        print($newhtml);
+
     }
     catch(PDOException $e)
     {print"$e";}
