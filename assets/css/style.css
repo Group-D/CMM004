@@ -129,7 +129,7 @@ form {
 .foot{
     float: right;
     text-align: right;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
     vertical-align: bottom;
     font-size: 10PT;
 }
@@ -206,7 +206,11 @@ nav{
 
 }
 
-th{
+.small{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8px;
+    color: white;
 
 
 
