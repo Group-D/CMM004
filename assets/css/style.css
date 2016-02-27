@@ -86,3 +86,8 @@ h4{
     color: white;
 }
 
+#submit {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
