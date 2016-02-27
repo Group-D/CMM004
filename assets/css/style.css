@@ -74,7 +74,11 @@ form {
     border-radius: 50px;
 }
 
-table{
+.topper{
+
+}
+
+table>.topper{
 
     background-color: darkslategrey;
     padding: 30px;
