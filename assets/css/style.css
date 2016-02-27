@@ -112,6 +112,7 @@ form {
     text-align: right;
     font-family: 'Playfair Display', serif;
     vertical-align: bottom;
+    font-size: 8PT;
 }
 
 input.submit {
