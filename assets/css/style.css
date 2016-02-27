@@ -14,6 +14,7 @@
     color: darkslategrey;
     font-size: 12PT;
     padding: 10px;
+    float: right;
 }
 
 .nav{
@@ -24,6 +25,7 @@
     padding: 10px;
     text-align: right;
     width: 100%;
+    float: right;
 }
 
 section{
