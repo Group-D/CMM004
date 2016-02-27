@@ -6,11 +6,16 @@ header{
 }
 
 
-form{
+form {
 
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
+}
+
+
+#form{
+
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
