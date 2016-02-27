@@ -3,8 +3,13 @@ header{
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     font-size: 12PT;
+    background-color: aqua;
 }
 
+head{
+
+    background-color: aqua;
+}
 
 form {
 
