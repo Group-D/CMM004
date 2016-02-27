@@ -25,6 +25,7 @@ form {
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -khtml-border-radius: 10px; /* KHTML */
     border-radius: 10px; /* CSS3 */
+    padding-bottom: 10%;
     ;
 }
 
@@ -120,7 +121,3 @@ nav{
     background-color: aqua;
 }
 
-tr{
-    
-    padding: 10%;
-}
