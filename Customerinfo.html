@@ -46,13 +46,12 @@
 <main>
     <form>
 
-        <table>
-
-            <tr><td> <p>Please complete the form before booking:</p></td></tr>
-
+        <table class="table1">
+            <tr><td colspan="2">Register to List your Property!</td></tr>
+            <tr><td class="small">* Required Fields</td></tr>
             <tr><td>
                     <label for="title">Title:</label></td>
-                <td><select name="title">
+                <td><select class="inputform" name="title">
                         <option value="">Select Title</option>
                         <option value="Mr">Mr</option>
                         <option value="Mrs">Mrs</option>
@@ -63,16 +62,16 @@
             </tr>
             <tr>
                 <td><label for="firstname">First Name:</label></td>
-                <td><input type="text" name="firstname" value="Enter your First Name" required /></td>
+                <td><input type="text" class="inputform" name="firstname" value="Enter your First Name" required /></td>
             </tr>
             <tr>
                 <td><label for="surname">Surname:</label></td>
-                <td><input type="text" name="surname" value="Enter your Surname" required /></td>
+                <td><input type="text" class="inputform" name="surname" value="Enter your Surname" required /></td>
             </tr>
             <tr>
                 <td>
                     <label for="email">Email:</label></td>
-                <td><input type="text" name="email" placeholder="email" size="30" maxlength="50" required /></td>
+                <td><input type="text" class="inputform" name="email" placeholder="email" size="30" maxlength="50" required /></td>
             </tr>
 
 
@@ -80,26 +79,48 @@
 
             <tr><td>
                     <label for="address">Address:</label></td>
-                <td><input type="text" name="address" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
+                <td><input type="text" class="inputform" name="address" placeholder=" Enter first line of your address" size="30" maxlength="50" required /></td>
             </tr>
 
             <tr><td>
                     <label for="address2">Address Line 2:</label></td>
-                <td><input type="text" name="address2" placeholder=" Enter second line of your address" size="30" maxlength="50" required /></td>
+                <td><input type="text" class="inputform" name="address2" placeholder=" Enter second line of your address" size="30" maxlength="50" required /></td>
             </tr>
 
 
             <tr><td>
                     <label for="telephone">Telephone:</label></td>
-                <td><input type="text" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
+                <td><input type="text" class="inputform" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
             </tr>
 
-            <tr>
-                <td><input type="submit" value="Submit" /></td>
+            <tr><td></td>
+                <td><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
 
+    <div class="right2">
 
+
+        <table class="table2">
+            <tr><td colspan="2"><p>Message Board - advertisements - user info</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 1</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 2</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 3</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 4</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 5</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 6</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 7</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 8</p></td></tr>
+            <tr class="tr2"><td class="t2"><p>row 9</p></td></tr>
+
+
+
+
+
+
+
+        </table>
+    </div>
     <hr width="100%" align="left" size="1" color="#2f4f4f">
 
 
@@ -111,12 +132,3 @@
     </footer></div>
 </body>
 </html>
-
-<?php
-/**
- * Created by PhpStorm.
- * User: Iain
- * Date: 27/02/2016
- * Time: 21:31
- */
-?>
