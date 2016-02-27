@@ -94,8 +94,8 @@ p{
 }
 
 .foot{
-    float: left;
-    text-align: left;
+    float: right;
+    text-align: right;
     font-family: 'Playfair Display', serif;
 }
 
