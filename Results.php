@@ -84,11 +84,14 @@ NEWHTML;
     {print"$e";}
     ?>
 </div>
+    <hr width="100%" align="left" size="1" color="#2f4f4f">
+
 
 </main>
-<footer>
+<div class="foot">
+    <footer>
 
-    <p>Copyright. Team D Solutions.</p>
-</footer>
+        <p>Copyright. Team D Solutions.</p>
+    </footer></div>
 </body>
 </html>
