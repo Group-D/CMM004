@@ -1,17 +1,23 @@
 .left {
     float: left;
-
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    font-size: 12PT;
 
 }
 .right {
 
     width: 100%;
     background-color: darkgrey;
-
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    font-size: 12PT;
 }
 
 .nav{
-
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
+    font-size: 12PT;
 float: right;
     width: 100%;
 }
@@ -26,7 +32,7 @@ header{
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     font-size: 12PT;
-    background-color: aqua;
+
 }
 
 head{
