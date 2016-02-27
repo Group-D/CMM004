@@ -92,7 +92,7 @@ p{
 }
 
 footer{
-
+    float: left;
     text-align: left;
     font-family: 'Playfair Display', serif;
 }
@@ -161,3 +161,6 @@ nav{
     background-color: aqua;
 }
 
+th, td {
+    border-bottom: 1px solid #ddd;
+}
