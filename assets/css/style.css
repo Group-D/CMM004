@@ -74,11 +74,9 @@ form {
     border-radius: 50px;
 }
 
-.topper{
 
-}
 
-table>.topper{
+table{
 
     background-color: darkslategrey;
     padding: 30px;
@@ -95,7 +93,7 @@ p{
 
 }
 
-footer{
+.foot{
     float: left;
     text-align: left;
     font-family: 'Playfair Display', serif;
@@ -165,6 +163,3 @@ nav{
     background-color: aqua;
 }
 
-th, td {
-    border-bottom: 1px solid #ddd;
-}
