@@ -17,12 +17,12 @@
 }
 
 .nav{
+
     font-family: 'Playfair Display', serif;
     color: darkslategrey;
     font-size: 12PT;
     padding: 10px;
-
-float: right;
+    text-align: right;
     width: 100%;
 }
 
