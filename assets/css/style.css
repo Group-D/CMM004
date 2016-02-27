@@ -107,6 +107,7 @@ form {
 
 .table1{
 
+    float: left;
     background-color: darkslategrey;
     padding: 30px;
     font-family: 'Open Sans', sans-serif;
