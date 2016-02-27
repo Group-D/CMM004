@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--coment-->
 <head>
     <meta charset="UTF-8">
-    <title>Customer Info</title>
+    <title>Results</title>
     <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+
+
 </head>
 
 <header>
+    <div class="right">
+        theB&Bhub.com
+    </div>
+</header>
+
+<div class="nav">
 
     <nav>
 
-        <ul>
-            <li><a href="Home.php">Home page</a></li>
-            <li><a href="Bookings.php">Bookings</a></li>
-            <li><a href="OwnerRegistration.html">Owner Registration</a></li>
-            <li><a href="B&Bregistration.html">B&B Registration</a></li>
+
+
+        <ul class="moveright"><li><a href="B&Bregistration.html">Help</a></li>
+            <li><a href="Bookings.php">Contact</a></li>
+            <li><a href="OwnerRegistration.html">Register</a></li>
+            <li><a href="B&Bregistration.html">Sign In</a></li>
+            <li><a href="Home.php">Search</a></li>
+
+
+
+
         </ul>
 
     </nav>
 
-</header>
+
+
+
+</div>
+<hr width="100%" align="left" size="1" color="#d3d3d3">
+
 <body>
 <main>
     <form>
