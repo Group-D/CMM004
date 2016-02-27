@@ -18,6 +18,12 @@
     color: white;
 }
 
+.right2{
+
+    float: right;
+    background-color: darkslategrey;
+}
+
 .nav{
 
     font-family: 'Playfair Display', serif;
