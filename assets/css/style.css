@@ -97,6 +97,11 @@ p{
     float: right;
     text-align: right;
     font-family: 'Playfair Display', serif;
+    vertical-align: bottom;
+}
+
+input.submit {
+    width: 20em;  height: 2em;
 }
 
 ul{
