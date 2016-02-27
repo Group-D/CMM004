@@ -16,6 +16,7 @@ form {
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 12PT;
+    
 }
 
 .inputform
@@ -117,4 +118,9 @@ h4{
 nav{
 
     background-color: aqua;
+}
+
+tr{
+    
+    padding: 10%;
 }
