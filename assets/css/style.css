@@ -9,13 +9,13 @@
 .right {
 
     width: 100%;
-    background-color: darkgrey;
+    background-color: darkslategrey;
     font-family: 'Playfair Display', serif;
-    color: darkslategrey;
-    font-size: 12PT;
+    font-size: 18PT;
     padding: 10px;
     float: none;
     vertical-align: top;
+    color: white;
 }
 
 .nav{
