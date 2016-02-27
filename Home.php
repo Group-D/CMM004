@@ -161,9 +161,9 @@ NEWHTML;
     </div>
 
 
-
+<p>
     <hr width="100%" align="left" size="1" color="#2f4f4f">
-
+</p>
 
 </main>
 <div class="foot">
