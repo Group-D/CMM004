@@ -68,7 +68,7 @@ head{
 form {
 
     color: #ffffff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12PT;
     
 }
@@ -191,5 +191,6 @@ nav{
 th{
     font-family: 'Open Sans', sans-serif;
     font-size: 12PT;
+    text-decoration: none;
 
 }
