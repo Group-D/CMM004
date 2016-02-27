@@ -23,6 +23,7 @@
     float: right;
     background-color: white;
     width: 60%;
+    font-family: 'Poiret One', cursive;
 
 
 }
@@ -177,6 +178,6 @@ nav{
 }
 
 th{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 
 }
