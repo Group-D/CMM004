@@ -37,7 +37,7 @@
 
 .nav{
 
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poiret One', cursive;
     color: darkslategrey;
     font-size: 10PT;
     padding: 10px;
@@ -112,7 +112,7 @@ form {
     text-align: right;
     font-family: 'Playfair Display', serif;
     vertical-align: bottom;
-    font-size: 8PT;
+    font-size: 10PT;
 }
 
 input.submit {
