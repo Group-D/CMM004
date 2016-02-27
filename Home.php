@@ -27,7 +27,7 @@
             <li><a href="Bookings.php">Contact</a></li>
             <li><a href="OwnerRegistration.html">Register</a></li>
             <li><a href="B&Bregistration.html">Sign In</a></li>
-            <li><a href="Home.html">Search</a></li>
+            <li><a href="Home.php">Search</a></li>
 
 
 
@@ -65,19 +65,17 @@
                     try{
                     $st = $conn-> query("SELECT DISTINCT [city] FROM [B&B]");
                     foreach($st->fetchAll() as $row) {
-                        $newhtml =
-                            <<<NEWHTML
-
-                                                                <option value="{$row[city]}">{$row[city]}</option>
-
+                    $newhtml =
+                    <<<NEWHTML
+                    <option value="{$row[city]}">{$row[city]}</option>
 NEWHTML;
-
                     print($newhtml);
                     }
                     }
                     catch(PDOException $e)
                     {print"$e";}
                     ?>
+
 
 
 

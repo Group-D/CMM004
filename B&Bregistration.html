@@ -12,7 +12,7 @@
     <nav>
 
         <ul>
-            <li><a href="Home.html">Home page</a></li>
+            <li><a href="Home.php">Home page</a></li>
             <li><a href="Bookings.php">Bookings</a></li>
             <li><a href="OwnerRegistration.html">Owner Registration</a></li>
             <li><a href="B&Bregistration.html">B&B Registration</a></li>
