@@ -71,7 +71,7 @@
 
 
 
-    <p><input type="submit" value="BOOK" /></p>
+    <p><a href="Customerinfo.html"><input type="submit" value="BOOK" /></a></p>
 
 
 
