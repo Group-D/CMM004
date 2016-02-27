@@ -49,13 +49,15 @@
 
     <form action="CustomerInfo.php" method="post">
 
-        <table>
-            <tr><td> <p>Please complete the form:</p></td></tr>
+        <table class="table1">
+            <tr><td colspan="2">Search:</td></tr>
+            <tr><td class="small">* Required Fields</td></tr>
 
             <tr>
                 <td>
                     <label for="location">Pick a location:</label></td>
-                <td><select name="location">
+                <td><select class="inputform" id="location" name="location">
+
 
                     <?php
                         $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
