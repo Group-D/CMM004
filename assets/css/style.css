@@ -21,7 +21,6 @@
 .table2{
 
     float: right;
-    background-color: lightgray;
     width: 60%;
     font-family: 'Open Sans', sans-serif;
     -moz-border-radius:10px; /* Firefox */
@@ -37,7 +36,7 @@
 
 .t2{
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .nav{
