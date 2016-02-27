@@ -13,6 +13,15 @@ form {
     font-size: 12PT;
 }
 
+.inputForm
+{
+    -moz-border-radius:10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+    ;
+}
+
 
 #form{
 
